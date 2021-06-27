@@ -1,0 +1,27 @@
+*{
+    background-color: #242526;
+}
+h1{
+    color: wheat;
+}
+p{
+    font-size: 20px;
+    color: wheat;
+}
+#linkedin{
+    height: 300px;
+    background-color: white;
+    border: #242526;
+    border-radius: 50px;
+    margin-left: 5px;
+}
+img{
+    height: 300px;
+}
+.highlighted{
+    color: white;
+    font-weight: bold;
+}
+p{
+    width: 35%;
+}
