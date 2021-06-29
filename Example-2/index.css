@@ -1,0 +1,49 @@
+html{
+    font-size: 25px;
+    max-width: 1200px;
+    line-height: 1.5em;
+}
+figure{
+    text-align: center;
+}
+figcaption{
+    font-size: 0.6em;
+    line-height: 1em;
+}
+img{
+    width: 100%;
+}
+h1{
+    font-size: 2em;
+    line-height: 1.2em;
+    font-weight: normal;
+}
+article{
+    max-width: 800px;
+}
+
+
+.gray{
+    color: gray;
+}
+.category{
+    font-size: 14px;
+    line-height: 1em;
+    margin-bottom: -3em;
+    margin-left: 1em;
+}
+.margin-rg-at{
+    margin-right: auto;
+}
+.margin-lf-at{
+    margin-left: auto;
+}
+.ffsans{
+    font-family: sans-serif;
+}
+.black{
+    color: black;
+}
+.center{
+    text-align: center;
+}
