@@ -9,27 +9,27 @@
 </head>
 <body>
     <form action="http://httpbin.org/post" method="POST">
-    <div>
+    <div class="form-row">
         <label for="name">İsim</label>
-        <input type="text" name="name" id="name">
+        <input type="text" name="name" id="name" placeholder="Mehmet Yılmaz">
     </div>
-    <div>
+    <div class="form-row">
         <label for="surname">Soyad</label>
         <input type="text" name="surname" id="surname">
     </div>
-    <div>
+    <div class="form-row">
         <label for="tel">Telefon</label>
         <input type="tel" name="tel" id="tel">
     </div>
-    <div>
+    <div class="form-row">
         <label for="email">Email</label>
         <input type="email" name="email" id="email">
     </div>
-    <div>
+    <div class="form-row">
         <label for="message">Mesaj</label>
         <textarea name="message" id="message" cols="50" rows="3"></textarea>
     </div>
-    <div>
+    <div class="form-row">
         <label for="city">Şehir</label>
         <select name="city" id="city">
             <option value="İstanbul">İstanbul</option>
@@ -37,13 +37,16 @@
             <option value="İzmir">İzmir</option>
         </select>
     </div>
-    <div>
-        <label for="color">Sevdiğiniz renk</label>
-        <input type="radio" name="color" value="kirmizi" checked> Kırmızı
-        <input type="radio" name="color" value="mor"> Mor
+    <div class="form-row">
+        <p>Sevdiğiniz Renk</p>
+        <div class="radio-container">
+        <label><input type="radio" name="color" value="kirmizi" checked> Kırmızı</label>
+        <label><input type="radio" name="color" value="mor"> Mor</label></div>
     </div>
-    <div>
-        <input type="submit">
+    <div class="form-rows">
+        <br>
+        <button type="reset">Sıfırla</button>
+        <button type="submit">Gönder</button>
     </div>
     </form>
 </body>
