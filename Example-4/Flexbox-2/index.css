@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: magenta;
+  width: 501px;
+  align-content: center;
+}
+
+.timeline {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  background-color: gray;
+  border-radius: 20px;
+  align-items: center;
+  padding: 20px;
+  flex-direction: column;
+}
+.element {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: gainsboro;
+  border-radius: 20px;
+  box-shadow: 0 5px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  margin-bottom: 13px;
+}
+.svg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: red;
+  flex-shrink: 0;
+  background-image: url("https://e7.pngegg.com/pngimages/148/892/png-clipart-computer-icons-user-symbol-light-client-icon-service-computer.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.content {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+.header {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.arrow {
+  width: 5px;
+  height: 30px;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
