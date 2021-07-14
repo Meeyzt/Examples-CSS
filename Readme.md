@@ -15,3 +15,8 @@
 # Example 4
 
 > Flexbox Examples
+
+- Navbar Example
+- Post Example
+- Timeline Example
+- Player Example
